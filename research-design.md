@@ -46,9 +46,9 @@ If false, then we know an issue is still within the pre-training information tha
 
 | Hypothesis | If true, I'll see | If false, I'll see |
 | --- | --- | --- |
-| H1: Reward scarcity changes where the persona’s traits move | Deception vs honesty: Rich model will become more deceptive.<br>Confidence vs hedging: Rich model will become more confident, since before that it was rewarded for almost every answer.<br>Descriptiveness vs vagueness: Rich model will become more vague, because it did not have to perfect its speech and ability to reason properly to get rewards before.<br>Agreeableness vs pushback: Rich model will start pushing back more, cause it is more confident.<br>Whereas the poor model will not move much from the measured traits. | No difference between the test of base model and those with varying scarcity. |
-| H0: Every model develops equally, no meaningful difference between base model and those with varying reward scarcity. | No difference between the base and tested | Some difference |
-| H2: Traits do get amplified, but scarcity is irrelevant. | Traits get shifted somewhat the same | Either nothing, or H1 |
+| H1: Reward scarcity changes where the persona’s traits move | Deception vs honesty: Rich model will become more deceptive.<br>Confidence vs hedging: Rich model will become more confident, since before that it was rewarded for almost every answer.<br>Descriptiveness vs vagueness: Rich model will become more vague, because it did not have to perfect its speech and ability to reason properly to get rewards before.<br>Agreeableness vs pushback: Rich model will start pushing back more, cause it is more confident.<br>Whereas the poor model will not move much from the measured traits. | Rich and poor are within one wobble of a difference. |
+| H0: Every model develops equally, no meaningful difference between base model and those with varying reward scarcity. | Difference between the base and tested are within one wobble | Beyond one wobble of a difference |
+| H2: Traits do get amplified, but scarcity is irrelevant. | The rich and poor differ from the base (above one wobble of difference), but rich and poor are within one wobble of a difference between each other. | Either nothing, or H1 |
 
 ## 6. Method & tools
 
