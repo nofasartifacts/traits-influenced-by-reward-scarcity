@@ -136,7 +136,7 @@ Stats (or, for small-N sprints: effect size + eyeball, stated as such): No p-val
 
 ## 12. Lab notebook (running log)
 
-- **Every run:** config, seed, result, one-line interpretation. Include failed, weird, and negative runs. Save raw outputs — you will want to reread transcripts.
+- **Every run:** config, seed, result, one-line interpretation. Including failed, weird, and negative runs.
 
 | Run | Config / seed | Result | Interpretation |
 | --- | --- | --- | --- |
